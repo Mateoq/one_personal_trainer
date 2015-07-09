@@ -1,0 +1,455 @@
+body {
+	background-color: #FFF;
+	color: #959598;
+	font-family: 'PT Sans', sans-serif;
+}
+
+input[type="text"], input[type="password"], input[type="email"],
+textarea {
+	border: 2px solid #98989B !important;
+	font-size: 16px !important;
+}
+
+.one-default-btn {
+	background-color: #98989B;
+	color: #FFF;
+	font-size: 18px;
+	display: block;
+}
+
+.one-default-btn:focus, .one-default-btn:hover {
+	background-color: #AFAFB2;
+	border-color: #98989B;
+	color: #FFF;
+}
+
+/* ICONS */
+[class^="oneicon-"], [class*="oneicon-"] {
+    background: url("../images/sprites.png") no-repeat;
+    display: inline-block;
+    line-height: 1em;
+    vertical-align: text-top;
+}
+
+.oneicon-logo-header {
+	background-position: -11px -11px;
+	width: 75px;
+	height: 36px;
+}
+
+.oneicon-logo-footer {
+	background-position: -100px -5px;
+	width: 101px;
+	height: 48px;
+}
+
+.oneicon-lossWieght {
+	background-position: -10px -58px;
+	width: 94px;
+	height: 99px;
+}
+
+.oneicon-toning {
+	background-position: -120px -58px;
+	width: 74px;
+	height: 97px;
+}
+
+.oneicon-gainMass {
+	background-position: -220px -61px;
+	width: 92px;
+	height: 94px;
+}
+
+.oneicon-sports {
+	background-position: -330px -58px;
+	width: 78px;
+	height: 115px;
+}
+
+.oneicon-specClasses {
+	background-position: -11px -172px;
+	width: 141px;
+	height: 128px;
+}
+
+.oneicon-anotherGoal {
+	background-position: -165px -172px;
+	width: 95px;
+	height: 102px;
+}
+
+.oneicon-instagram {
+	background-position: -211px -6px;
+	width: 30px;
+	height: 31px;
+}
+
+.oneicon-facebook {
+	background-position: -250px -5px;
+	width: 30px;
+	height: 30px;
+}
+
+.oneicon-breadcrumbArrow {
+	background-position: -298px -6px;
+	width: 8px;
+	height: 12px;
+}
+
+.oneicon-home {
+	background-position: -289px -26px;
+	width: 26px;
+	height: 25px;
+	margin-top: -6px;
+}
+
+/* HEADER */
+.oneNavbar {
+	background-color: #98989B;
+	padding: 7px;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 0px 1px 4px #000;
+	-moz-box-shadow: 0px 1px 4px #000;
+	box-shadow: 0px 1px 4px #000;
+}
+
+#oneHeaderNavbar a,
+#oneHeaderNavbar a:hover,
+#oneHeaderNavbar a:focus {
+	background: none;
+	color: #FFF;
+	font-weight: bold;
+	padding: 15px;
+}
+
+/* FOOTER */
+.one-navbar-footer {
+	margin-bottom: 0;
+	margin-top: 20px;
+	-webkit-box-shadow: 0px 0px 7px #000;
+	-moz-box-shadow: 0px 0px 7px #000;
+	box-shadow: 0px 0px 7px #000;
+}
+
+.one-footer-text {
+	padding-top: 9px;
+	padding-bottom: 9px;
+	color: #FFFFFF;
+	font-size: 22px;
+	text-align: center;
+}
+
+/* BREADCRUMBS */
+.oneBreadcrumbs {
+	background-color: transparent;
+	margin-bottom: 10px;
+}
+
+.oneBreadcrumbs > li + li:before {
+	content: "" !important;
+}
+
+/* SOCIAL NETWORK LINKS */
+.oneHeaderSocialNetworksTitle {
+	padding-right: 4px;
+	width: 56%;
+	height: 31px;
+	padding-top: 8px;
+}
+
+.oneHeaderSocialNetworksIcon {
+	padding: 0 4px;
+	width: 11%;
+}
+
+/* LOGIN AND REGISTER */
+.one-login-form-cont {
+	padding-bottom: 20px;
+	padding-left: 80px;
+}
+
+.one-register-form-cont {
+	padding-right: 54px;
+	padding-bottom: 20px;
+}
+
+.one-new-user-goal-cont {
+	padding-top: 5px;
+	margin-bottom: 12px;
+}
+
+.one-new-user-goal-cont > .control-group {
+	width: 80%;
+	margin: auto;
+}
+
+.one-register-btn {
+	margin: auto;
+	width: 20%;
+}
+
+/* HOME */
+.one-home-carousel-indicators {
+	width: 13%;
+	height: 23px;
+	right: 20px;
+	left: initial;
+	top: 16px;
+	background-color: rgba(146,146,146,0.7);
+	border-radius: 4px;
+	padding: 3px 0;
+}
+
+.one-home-carousel-indicators > li {
+	background-color: #D6D1CD;
+	border-color: #D6D1CD;
+	width: 12px;
+	height: 12px;
+	margin: 0;
+}
+
+.one-home-carousel-indicators > li.active {
+	background-color: #CADB09;
+	border-color: #CADB09;
+}
+
+.one-row-characteristics {
+	margin: 0;
+	margin-top: 20px;
+	width: 100%;
+	float: none;
+	display: table;
+	text-align: center;
+}
+
+.one-home-characteristic {
+	padding: 0;
+	border: 2px solid #959598;
+	border-right: none;
+	display: table-cell;
+	float: none;
+}
+
+.one-home-characteristic:first-child {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+
+.one-home-characteristic:last-child {
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-right: 2px solid #959598;
+}
+
+.one-home-characteristic > a {
+	display: table;
+	padding-top: 10px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.one-home-characteristic > a:hover,
+.one-home-characteristic > a:focus {
+	text-decoration: none;
+}
+
+.one-home-characteristic-img {
+	margin: 0 auto;
+	float: none;
+	vertical-align: middle;
+	display: block;
+}
+
+.one-home-characteristic-title {
+	margin-top: 6px;
+	padding: 6px 16px;
+	background-color: #959598;
+	line-height: 14px;
+	min-height: 40px;
+	color: #FFFFFF;
+}
+
+.one-main-title {
+	font-size: 48px;
+	margin-top: 10px;
+	line-height: 24px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.one-title-message {
+	font-size: 30px;
+}
+
+.one-title-slogan {
+	font-size: 20px;
+}
+
+.one-row-botton-info {
+	margin-top: 20px;
+}
+
+.one-hire-plan-title {
+	width: 60%;
+	background-color: #CADB09;
+	font-size: 38px;
+	text-align: center;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 2px 2px #959598;
+	-moz-box-shadow: 0px 2px 2px #959598;
+	box-shadow: 0px 2px 2px #959598;
+	color: #FFF;
+	text-shadow: -1px -1px 1px #090709, 1px -1px 0px #090709, -1px 1px 1px #090709, 1px 1px 1px #090709, 2px 3px 6px #FFF;
+}
+
+.one-hire-plan-characteristics {
+	padding: 0 26px;
+	margin-top: 10px;
+	font-size: 17px;
+}
+
+/* SERVICES */
+.one-row-service-title {
+	margin-top: 20px;
+	padding: 0 15px;
+}
+
+.one-service-title {
+	font-size: 28px;
+	color: #FFFFFF;
+	background-color: #969699;
+	font-weight: bold;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 1px 4px #000;
+	-moz-box-shadow: 0px 1px 4px #000;
+	box-shadow: 0px 1px 4px #000;
+}
+
+.one-row-service-line {
+	margin-top: 5px;
+	font-size: 16px;
+}
+
+.one-row-service-line > p {
+	padding: 0 30px;
+}
+
+.one-services-adquire-plan {
+	margin-top: 20px;
+	font-size: 28px;
+	text-align: center;
+}
+
+.one-row-services-plan-options {
+	margin-top: 16px;
+}
+
+.one-services-courtesy_day {
+	text-align: center;
+}
+
+.one-services-courtesy_day > a {
+	display: inline-block;
+	font-size: 40px;
+	line-height: 41px;
+	width: 70%;
+	background-color: #98989B;
+	color: #FFF;
+	text-decoration: none;
+	padding: 22px 14px;
+	border-radius: 60px;
+}
+
+.one-row-services-personal-virtual a {
+	width: 90%;
+	background-color: #CADB09;
+	font-size: 28px;
+	text-align: center;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	-webkit-box-shadow: 0px 2px 2px #959598;
+	-moz-box-shadow: 0px 2px 2px #959598;
+	box-shadow: 0px 2px 2px #959598;
+	display: inline-block;
+	color: #FFF;
+	text-decoration: none;
+	padding: 5px 10px;
+	text-shadow: -1px -1px 1px #090709, 1px -1px 0px #090709, -1px 1px 1px #090709, 1px 1px 1px #090709, 2px 3px 6px #FFF;
+}
+
+.one-contact-title {
+	margin-top: 10px;
+	font-size: 28px;
+	padding-left: 34px;
+}
+
+.one-contact-info {
+	font-size: 20px;
+	padding-left: 34px;
+}
+
+.one-contact-info > a {
+	color: #959598;
+	text-decoration: underline;
+}
+
+/* MAIL FORM */
+#one_mail_form .modal-header {
+	background-color: #98989B;
+	color: #FFF;
+}
+
+#one_mail_form .modal-header > .close {
+	color: #CADB09;
+}
+
+.one-mail-form input, .one-mail-form textarea {
+	border: 2px solid #98989B;
+	font-size: 16px;
+}
+
+.one-mail-form-btn {
+	background-color: #98989B;
+	color: #FFF;
+	font-size: 18px;
+	display: block;
+	margin: 0 auto;
+	width: 30%;
+}
+
+.one-mail-form-btn:hover, .one-mail-form-btn:focus {
+	background-color: #AFAFB2;
+	border-color: #98989B;
+	color: #FFF;
+}
+
+/* PLANS */
+.one-plans-row {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.one-plan-column .one-plan-title {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #FFF;
+	background-color: #cce200;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: -1px -1px 1px #090709, 1px -1px 0px #090709, -1px 1px 1px #090709, 1px 1px 1px #090709, 2px 3px 6px #FFF;
+}
+
+.one-plan-column.clearfix,
+.center-block.clearfix {
+	float: none;
+}
+
+.one-plan-note {
+	font-size: 16px;
+}
