@@ -1,1 +1,3 @@
-# one_personal_trainer
+# One Personal Trainer
+
+This is a Laravel application
